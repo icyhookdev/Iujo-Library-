@@ -1,0 +1,304 @@
+.body, html{
+  height: 100%;
+  margin:0;
+  font-size:16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color:#666;
+}
+
+.book1, .book2, .book3, .adt, .details, .registerLend, .lendIndex, .details2, .donationIndex, .addDona, .authors{
+  position: relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.book1{
+  background-image:url('../img/bg3.jpeg');
+  min-height: 430px;
+}
+.book2{
+  background-image:url('../img/bk1.jpeg');
+  min-height: 330px;
+}
+.book3{
+  background-image:url('../img/bg2.jpeg');
+  min-height: 330px;
+}
+.registerBook{
+  background:#282e34;
+  min-height: 860px;
+  margin-bottom: -20px;
+}
+
+.company{
+  min-height: 860px;
+  background:#282e34;
+  margin-bottom: -20px;
+}
+
+.donationIndex{
+  background-image:url('../img/donation.jpeg');
+  min-height: 350px;
+}
+
+.authors{
+  background-image:url('../img/authors.jpeg');
+  min-height: 350px;
+}
+
+.addDona{
+  background-image:url('../img/addDona.jpeg');
+  min-height: 350px;
+}
+
+.details2{
+  background-image:url('../img/details2.jpeg');
+  min-height: 300px;
+}
+
+.details{
+  background-image:url('../img/details.jpeg');
+  min-height: 300px;
+}
+
+.lendIndex{
+  min-height: 860px;
+  margin-bottom: -20px;
+  opacity:1 !important;
+}
+.registerLend{
+  background-image:url('../img/bg2.jpeg');
+  min-height: 300px;
+}
+
+.adt{
+  min-height: 860px;
+  margin-bottom: -20px;
+  opacity:1 !important;
+}
+
+.addBook{
+  background: #86003C;
+  min-height: 860px;
+  margin-bottom: -20px;
+  opacity:1 !important;
+}
+
+
+.loginBook{
+  background:#282e34;
+  min-height: 860px;
+  margin-bottom: -20px;
+}
+
+.personProfile{
+  background:#282e34;
+  min-height: 860px;
+  margin-bottom: -20px;
+}
+
+.profile{
+  background: #282e34;
+  min-height: 860px;
+  margin-bottom: -20px;
+}
+
+.addp{
+  background:#282e34;
+  min-height: 860px;
+  margin-bottom: -20px;
+}
+.section{
+  text-align: center;
+  padding:50px 80px;
+  font-size:18px;
+}
+
+.section-light{
+  background:#f4f4f4;
+  color:#666;
+
+}
+
+.section-dark{
+  background:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border{
+  background-color: #fff;
+  color:#000;
+  padding:20px;
+}
+
+.ptext .border2{
+  background-color: #000;
+  color:#fff;
+  padding:20px;
+}
+
+@media(max-width:568px){
+  .book1, .book2, .book3{
+      background-attachment: scroll;
+  }
+}
+
+.mt-1{
+  margin-top:20px;
+}
+
+.mt-2{
+  margin-top:40px;
+}
+
+.mt-3{
+  margin-top:60px;
+}
+
+.mb-1{
+  margin-bottom:20px;
+}
+
+.mb-2{
+  margin-bottom:40px;
+}
+
+.mb-3{
+  margin-bottom:60px;
+}
+
+.mb-auto{
+  margin-bottom: auto;
+}
+
+.foo{
+  padding:10px;
+  /*margin-top:-20px;*/
+}
+
+.content{
+  padding:20px;
+  min-height: 860px;
+  max-width:80%;
+  margin-left:20%;
+}
+
+.scrollY{
+  max-height:600px;
+  width:auto; 
+  overflow-y: scroll; 
+}
+
+
+.pd-1{
+  padding:10px !important;
+}
+.bgColor{
+  background:#212125;
+}
+
+.inputSearch{
+  max-width:200px !important;
+  margin-right:0;
+  max-height: 35px !important;
+  font-size:16px !important;
+}
+
+.edit{
+  background: #33425B;
+  min-height: 860px;
+  margin-bottom: -20px;
+}
+
+.indexBook{
+  background:#282e34;
+  min-height: 860px;
+  margin-bottom: -20px;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #000 !important;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+
+.input-field label {
+  color: #000 !important;
+}
+
+.collection{
+  border:none !important;
+}
+.collection-item{
+  border:none !important;
+  margin-bottom:10px !important;
+}
+
+.leftBar{
+  background: #393E46;
+  margin-right:-22px;
+  /* position:relative;
+  left:22px; */
+}
+
+.collect-hover:hover{
+  background: #f4f4f4 !important;
+  color: #000 !important;
+}
+
+.fixed{
+  position: fixed;
+}
+
+
+.psize{
+  font-size:16px;
+  margin-left:50px !important;
+}
+
+.mySideBar{
+  max-width:100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.mySideBar:hover{
+  overflow-y: auto;
+}
+
+.img-container{
+  padding:20px;
+  max-width:300px;
+  height:300px;
+  position:relative;
+  top:-250px;
+  left:-30px;
+  background-image: url('../img/prof.jpg');
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+} 
+
+.lessM{
+  margin-top:-250px;
+}
+
